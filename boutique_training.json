@@ -1,0 +1,50 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "app": "frontend",
+          "connection_security_policy": "unknown",
+          "destination_app": "shippingservice",
+          "destination_canonical_revision": "latest",
+          "destination_canonical_service": "shippingservice",
+          "destination_cluster": "Kubernetes",
+          "destination_principal": "spiffe://cluster.local/ns/default/sa/shippingservice",
+          "destination_service": "shippingservice.default.svc.cluster.local",
+          "destination_service_name": "shippingservice",
+          "destination_service_namespace": "default",
+          "destination_version": "unknown",
+          "destination_workload": "shippingservice",
+          "destination_workload_namespace": "default",
+          "grpc_response_status": "0",
+          "instance": "10.96.0.22:15020",
+          "job": "kubernetes-pods",
+          "namespace": "default",
+          "node": "gke-my-aiopslab6-cluster-default-pool-0c3d29b8-gv24",
+          "pod": "frontend-cb9967686-8cxvp",
+          "pod_template_hash": "cb9967686",
+          "reporter": "source",
+          "request_protocol": "grpc",
+          "response_code": "200",
+          "response_flags": "-",
+          "security_istio_io_tlsMode": "istio",
+          "service_istio_io_canonical_name": "frontend",
+          "service_istio_io_canonical_revision": "latest",
+          "source_app": "frontend",
+          "source_canonical_revision": "latest",
+          "source_canonical_service": "frontend",
+          "source_cluster": "Kubernetes",
+          "source_principal": "spiffe://cluster.local/ns/default/sa/frontend",
+          "source_workload": "frontend",
+          "source_workload_namespace": "default"
+        },
+        "value": [
+          1732004982.144,
+          "3.037383177570094"
+        ]
+      }
+    ]
+  }
+}
